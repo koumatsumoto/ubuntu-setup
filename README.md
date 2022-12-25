@@ -49,13 +49,27 @@ sudo apt install \
 gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']"
 ```
 
-#### IMEの日本語設定
+#### IMEの日本語設定（ibus-mozc）
+
+```sh
+$(check-language-support -l ja)
+```
+
+- Settings > Keyboard > Input Sources の設定を変更する
+  - Input Sources に `Japanese (Mozc)` を追加する
+  - Input Sources に `Japanese` を追加する
+    - この設定を変更しないとIMEがJIS配列キーボードに対応しない
+
+<img src="https://user-images.githubusercontent.com/15353515/209467014-1889fafa-ddeb-4646-bd1a-e2bd6bca9140.png" width="600px" />
+
+- Japanese (Mozc)の設定を変更する
+  - General > Keymap > Keymap style を変更する
+    - 以下画像の8項目を設定する
+
+<img src="https://user-images.githubusercontent.com/15353515/209467152-694bb8b5-e942-4176-b646-d59ea342847b.png" width="600px" />
 
 
-![image](https://user-images.githubusercontent.com/15353515/209466794-fb942259-68d8-44b9-8357-3699ee368045.png)
-
-
-#### IMEの日本語設定
+#### IMEの日本語設定（fcitx-mozc）
 
 - 以下のコマンドで `fcitx-mozc` をインストールする
 
