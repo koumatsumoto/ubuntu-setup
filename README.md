@@ -15,6 +15,7 @@
   - Google Chromeのインストール
   - SSHキーの設定
   - GPGキーの設定
+  - Dockerのインストール
 
 ### Ubuntuインストールと初期設定
 
@@ -92,3 +93,8 @@ gpg --edit-key KEY_ID
 # trust
 # set ~/.gitconfig
 ```
+
+#### Dockerのインストール
+
+- https://docs.docker.com/engine/install/ubuntu/
+
