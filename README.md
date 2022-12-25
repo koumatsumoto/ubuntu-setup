@@ -46,15 +46,16 @@ reboot
   - Configure > Global Config > Hotkey を設定する
     - Activate Input Method を設定
     - Inactivate Input Method を設定
-    
-![image](https://user-images.githubusercontent.com/15353515/209463108-38beb08f-7202-4854-87bc-c383a44d339f.png)
-![image](https://user-images.githubusercontent.com/15353515/209463170-61ee2fba-87f1-414e-b946-d0a8fb23ec5f.png)
+
+<img src="https://user-images.githubusercontent.com/15353515/209463108-38beb08f-7202-4854-87bc-c383a44d339f.png" width="600px" />
+<img src="https://user-images.githubusercontent.com/15353515/209463170-61ee2fba-87f1-414e-b946-d0a8fb23ec5f.png" width="600px" />
 
 
 Settings > Keyboard > Input Sources の設定を手動で変更する
   - Input Sources に `Japanese` を追加して既存の設定を置き換える 
   - この設定を変更しないとターミナルがJIS配列キーボードに対応しない
 
-![image](https://user-images.githubusercontent.com/15353515/209462931-40a52df6-8345-4d9b-8bfa-a4267f5ccfce.png)
+<img src="https://user-images.githubusercontent.com/15353515/209462931-40a52df6-8345-4d9b-8bfa-a4267f5ccfce.png" width="600px" />
+
 
 
