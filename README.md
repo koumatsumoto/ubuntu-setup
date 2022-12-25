@@ -10,5 +10,13 @@
 - Ubuntuインストールと初期設定
   - Ubuntuのインストール
   - apt packageのインストール
+  - CapsLockキーとCtrlキーの入れ替え
   - IMEの日本語設定
   - Google Chromeのインストール
+
+
+### CapsLockキーとCtrlキーの入れ替え
+
+
+
+### IMEの日本語設定
