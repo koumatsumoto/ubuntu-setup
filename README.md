@@ -13,6 +13,7 @@
   - CapsLockキーをCtrlキーにする
   - IMEの日本語設定
   - Google Chromeのインストール
+  - SSHキーの設定
 
 ### Ubuntuインストールと初期設定
 
@@ -57,5 +58,9 @@ Settings > Keyboard > Input Sources の設定を手動で変更する
 
 <img src="https://user-images.githubusercontent.com/15353515/209462931-40a52df6-8345-4d9b-8bfa-a4267f5ccfce.png" width="600px" />
 
+#### SSHキーの設定
 
-
+```
+ssh-keygen
+cat .ssh/id_rsa.pub | xsel -ib
+```
