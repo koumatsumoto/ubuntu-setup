@@ -51,6 +51,12 @@ gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']"
 
 #### IMEの日本語設定
 
+
+![image](https://user-images.githubusercontent.com/15353515/209466794-fb942259-68d8-44b9-8357-3699ee368045.png)
+
+
+#### IMEの日本語設定
+
 - 以下のコマンドで `fcitx-mozc` をインストールする
 
 ```
