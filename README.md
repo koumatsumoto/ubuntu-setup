@@ -14,6 +14,7 @@
   - IMEの日本語設定
   - Google Chromeのインストール
   - SSHキーの設定
+  - GPGキーの設定
 
 ### Ubuntuインストールと初期設定
 
@@ -21,7 +22,24 @@
 
 ```
 sudo apt update && sudo apt dist-upgrade && sudo apt autoremove
-sudo apt install build-essential git vim xsel dconf-editor curl tree net-tools nmap python-is-python3 python3-pip unzip
+```
+
+```
+sudo apt install \
+  build-essential \
+  git \
+  gnupg \
+  vim \
+  xsel \
+  dconf-editor \
+  curl \
+  tree \
+  net-tools \
+  nmap \
+  python-is-python3 \
+  python3-pip \
+  unzip \
+
 ```
 
 #### CapsLockキーをCtrlキーにする
