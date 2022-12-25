@@ -10,7 +10,7 @@
 - Ubuntuインストールと初期設定
   - Ubuntuのインストール
   - apt packageのインストール
-  - CapsLockキーとCtrlキーの入れ替え
+  - CapsLockキーをCtrlキーにする
   - IMEの日本語設定
   - Google Chromeのインストール
 
@@ -23,7 +23,7 @@ sudo apt update && sudo apt dist-upgrade && sudo apt autoremove
 sudo apt install build-essential git vim xsel dconf-editor curl tree net-tools nmap python-is-python3 python3-pip unzip
 ```
 
-#### CapsLockキーとCtrlキーの入れ替え
+#### CapsLockキーをCtrlキーにする
 
 ```
 gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']"
