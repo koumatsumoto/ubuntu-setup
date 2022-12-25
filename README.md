@@ -64,3 +64,13 @@ Settings > Keyboard > Input Sources の設定を手動で変更する
 ssh-keygen
 cat .ssh/id_rsa.pub | xsel -ib
 ```
+
+#### GPGキーの設定
+
+```
+sudo apt install gnupg
+gpg --allow-secret-key-import --import PASS_TO_MASTER_KEY
+gpg --edit-key KEY_ID
+# trust
+# set ~/.gitconfig
+```
